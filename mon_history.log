@@ -1,0 +1,545 @@
+    1  cd
+    2  realpath
+    3  realpath~
+    4  realpath ~
+    5  cd /
+    6  ls
+    7  ls -l
+    8  /tmp
+    9  cd/tmp
+   10  cd /tmp/
+   11  realpath ~
+   12  pwd
+   13  ls
+   14  echo "Je suis moisi">vieuxtacos.txt
+   15  ls
+   16  cat vieuxtacos.txt
+   17  echo "Je ne suis pas moisi">vieuxtacos.txt
+   18  cat vieuxtacos.txt
+   19  mv vieux tacos.txt tacos.txt
+   20  mv vieuxtacos.txt tacos.txt
+   21  ls
+   22  rm tacos.txt
+   23  ls
+   24  /opt
+   25  cd/opt/
+   26  realpath ~
+   27  cd/
+   28  ls
+   29  cd ~
+   30  /opt
+   31  ls
+   32  /tmp
+   33  cd/opt/
+   34  pwd
+   35  cd/tmp
+   36  cd/tmp/
+   37  cd /tmp
+   38  cd /opt
+   39  pwd
+   40  mkdir: cannot create directory tacosfolder: Permission denied
+   41  sudo mkdir: cannot create directory tacosfolder: Permission denied
+   42  ls
+   43  sudomkdir: cannot create directory tacosfolder: Permission denied
+   44  sudo mkdir tacosfolder
+   45  cd /opt/ls
+   46  cd /opt/
+   47  ls
+   48  /tacosfolder/
+   49  / tacosfolder
+   50  /tacosfolder
+   51  tacosfolder/
+   52  ls
+   53  /tacosfolder
+   54  cd /tacosfolder
+   55  cd tacosfolder/
+   56  echo "j'aime les haricot rouge">haricots.txt
+   57  sudoecho "j'aime les haricot rouge">haricots.txt
+   58  rm tacosfolder
+   59  cd opt
+   60  cd ..
+   61  rm tacosfolder
+   62  ls
+   63  sudo rm tacosfolder
+   64  rm- tacosfolder
+   65  rm-r tacosfolder
+   66  rm -r tacosfolder
+   67  ls
+   68  sudo rm -r tacosfolder
+   69  ls
+   70  cd ~/Documents
+   71  pwd
+   72  mkdir chalet
+   73  ls
+   74  cd ..
+   75  ls
+   76  Documents
+   77  cd Documents
+   78  echo"j'aime les canapés">fauteuil1.txt
+   79  echo "j'aime les canapés">fauteuil1.txt
+   80  ls
+   81  mv fauteuil1 chalet
+   82  ls
+   83  mv fauteuil1 chalet
+   84  ls
+   85  mv fauteuil1.txt chalet
+   86  ls
+   87  mkdir armure
+   88  mkdir armoires
+   89  mkdir etageres
+   90  ls
+   91  mv armure chalet
+   92  mv armoires
+   93  mv armoires chalet
+   94  mv etageres chalet
+   95  ls
+   96  cd chalet
+   97  ls
+   98  cd armoires/
+   99  cd ..
+  100  cp fauteuil1 fauteuil2
+  101  ls
+  102  cp fauteuil1.txt fauteuil2.txt
+  103  ls
+  104  echo "j'aime bibelots">bibelots
+  105  ls
+  106  cd armoires
+  107  mv ../bibelots
+  108  mv bibelots../bibelots
+  109  mv --help
+  110  mv ../bibelots .
+  111  ls
+  112  .
+  113  pwd
+  114  ls
+  115  ls bibelots
+  116  touch ../toto.titi
+  117  ls
+  118  ls ../
+  119  cd ..
+  120  ls
+  121  cd ../
+  122  l
+  123  ls
+  124  cd chalet
+  125  ls
+  126  cd armoires
+  127  ls
+  128  cp bibelots bibelots1
+  129  ls
+  130  mv bibelots1 etageres
+  131  cd ..
+  132  cd etageres
+  133  ls
+  134  cd ..
+  135  armoires
+  136  cd armoires
+  137  ls
+  138  mv etageres bibelots1
+  139  ls
+  140  mv ./bibelots1 ../etageres 
+  141  ls
+  142  cd ..
+  143  ls
+  144  cd etageres
+  145  ls
+  146  cd ...
+  147  cd ..
+  148  cd tree chalet
+  149  cd treechalet
+  150  tree chalet
+  151  sudo apt install tree
+  152  tree chalet
+  153  ls
+  154  rm -r chalet
+  155  ls
+  156  tree
+  157  clear
+  158  cd gunzip clmystery-master
+  159  gunzip clmystery-master
+  160  ls
+  161  gunzip clmystery-master
+  162  ls
+  163  unzip clmystery-master .
+  164  ls
+  165  mkdir Enquête à Terminal City
+  166  ls
+  167  rm -r Terminal
+  168  ls
+  169  rm -r à
+  170  rem -r city
+  171  rm -r city
+  172  ls
+  173  rm -r City
+  174  ls
+  175  unzip clmystery-master Enquête
+  176  unzip clmystery-master -d Enquête
+  177  ls
+  178  cd Enquête
+  179  ls
+  180  cd clmystery-master
+  181  ls
+  182  cat cheatsheet.md
+  183  cat hint1
+  184  head -n 20 people
+  185  cd mystery
+  186  ls
+  187  cat crimescene
+  188  cd ..
+  189  cd mystery
+  190  ls
+  191  head -n 20 crimescene
+  192  car instructions
+  193  cat instructions
+  194  ls
+  195  ls -r
+  196  tree mystery
+  197  cd ../
+  198  ls
+  199  cat instructions
+  200  LS
+  201  ls
+  202  cd mystery
+  203  ls
+  204  grep "CLUE" crimescene
+  205  cd interviews
+  206  ls
+  207  grep -i "annabel" interview
+  208  cd ../
+  209  cd memberships
+  210  ls
+  211  cat AAA
+  212  ls
+  213  cat Delta_skyMiles
+  214  cat Delta_SkyMiles
+  215  ls
+  216  cat Museum_of_Bash_History
+  217  ls
+  218  wc -l AAA
+  219  wc -l Delta_SkyMiles
+  220  wc -l Museum_of_Bash_History
+  221  wc -l Terminal_City_Library
+  222  ls
+  223  cd ../
+  224  ls
+  225  grep -i "CLUE" crimescene
+  226  cat AAA > suspect
+  227  cd membership
+  228  cd memberships
+  229  cat AAA > suspect
+  230  ls
+  231  wc -l suspect
+  232  cat Delta_SkyMiles > suspect
+  233  wc -l suspect
+  234  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library > suspect
+  235  wl -l suspect
+  236  wc -l suspect
+  237  ls
+  238  sort -o suspect suspecttrie
+  239  uniq suspect no-suspect
+  240  ls
+  241  wc -l no-suspect
+  242  rm -r no-suspect
+  243  ls
+  244  sort suspect
+  245  sort -u suspect
+  246  wc -l suspect
+  247  ls
+  248  sort suspect
+  249  sort -u suspect -o suspecttrie
+  250  ls
+  251  wc -l suspecttrie
+  252  cd ../
+  253  ls
+  254  cd streets
+  255  ls
+  256  cd ../
+  257  ls
+  258  cat suspect
+  259  wc -l suspect
+  260  cd memberships
+  261  ls
+  262  cat suspecttrie
+  263  wc -l suspect
+  264  uniq -d suspect -o suspectdoublons
+  265  uniq -d suspect
+  266  ls
+  267  wc -l suspect
+  268  uniq -c suspect
+  269  sort suspect
+  270  uniq -c suspect
+  271  grep -i "zuzanne"
+  272  ls
+  273  tree Ddocuments
+  274  tree Documents
+  275  cd Documents
+  276  cd Enquête
+  277  ls
+  278  cd clmystery-master
+  279  ls
+  280  cat cheatsheet.pdf
+  281  ls
+  282  cd mystery
+  283  ls
+  284  cat suspect
+  285  wc -l suspect
+  286  cat people
+  287  wc -l people
+  288  ls
+  289  cd street
+  290  cd streets
+  291  ls
+  292  cd ../
+  293  ls
+  294  grep -i "CLUE" crimescsene
+  295  grep -i "CLUE" crimescene
+  296  cat vehicles
+  297  ls
+  298  cat people
+  299  grep -i "M" people
+  300  ls
+  301  cd memberships
+  302  ls
+  303  sort suspect -o suspectalpha
+  304  ls
+  305  cat suspectalpha
+  306  uniq -c suspectalpha
+  307  sort -n suspectalpha
+  308  uniq -c suspectalpha
+  309  sort -o suspectalpha
+  310  cd Documents/Enquête/clmystery-master/mystery
+  311  ls
+  312  cd memberships
+  313  ls
+  314  cat suspectalpha
+  315  uniq -c suspectalpha
+  316  sort -o suspectalpha suspectalphanbr
+  317  sort -o suspectalpha suspecttrie
+  318  ls
+  319  cat suspecttrie
+  320  ls
+  321  uniq -c suspectalpha
+  322  ls
+  323  cat suspecttrie
+  324  wc -l suspecttrie
+  325  rm -r suspecttrie
+  326  ls
+  327  wc -l suspectalpha
+  328  rm -r suspectalpha
+  329  ls
+  330  wc -l suspect
+  331  sort suspect
+  332  sort suspect -o suspect suspectalpha
+  333  touch suspectalpha
+  334  ls
+  335  sort suspect -o suspect suspectalpha
+  336  cat suspectalpha
+  337  wc -l suspectalpha
+  338  sort suspect
+  339  sort -o suspect suspectalpha
+  340  wc -l suspectalpha
+  341  cat suspect
+  342  wc -l suspect
+  343  ls
+  344  cat AAA Delta_SkyMiles Museum_of_Bash_History Terminal_City_Library > suspect
+  345  wc -l suspect
+  346  sort suspect
+  347  sort -o suspectalpha suspect
+  348  wc -l suspectalpha
+  349  cat suspectalpha
+  350  uniq -c suspectalpha
+  351  ls
+  352  touch suspectalphanbr
+  353  ls
+  354  uniq -c suspectalpha
+  355  sort -o suspectalphanbr suspectalpha
+  356  cat suspectalphanbr
+  357  wc -l suspectalphanbr
+  358  wc -l suspectalpha
+  359  uniq -c suspectalpha
+  360  grep 4 suspectalpha
+  361  cat suspectalpha
+  362  uniq -c suspectalpha
+  363  sort -n suspectalpha
+  364  uniq -c sort -n suspectalpha
+  365  uniq -c sort -o suspectalphanbr suspectalpha
+  366  uniq -c sort|-n suspectalpha
+  367  uniq -c suspectalpha|sort -n suspectalpha
+  368  uniq -c suspectalpha
+  369  grep 3 suspectalpha
+  370  cat suspectalpha
+  371  uniq -c suspectalpha
+  372  uniq -c suspectalpha; sort -n suspectalpha
+  373  cd ../
+  374  ls
+  375  cd ../
+  376  ls
+  377  cat hint1
+  378  cd mytery
+  379  ls
+  380  cd mystery
+  381  ls
+  382  head -n 20 people
+  383  cd ../
+  384  ls
+  385  cat hint2
+  386  cat hint3
+  387  cd mystery
+  388  grep -i "annabel" vehicles
+  389  head -n 20 vehicles
+  390  head -n 40 vehicles
+  391  grep -i "annabel" people
+  392  ls
+  393  cd interviews
+  394  ls
+  395  cat interview-179719
+  396  CD ../
+  397  cd ../
+  398  ls
+  399  cd ../
+  400  ls
+  401  cat hint5
+  402  cd streets
+  403  ls
+  404  cd Streets
+  405  ls
+  406  cd mystery
+  407  ls
+  408  cd street
+  409  cd streets
+  410  ls
+  411  cd ../
+  412  ls
+  413  cd interviews
+  414  head -n 173 streets/Mattapan_Street | trail -n 1
+  415  ls
+  416  cat interview-17343208
+  417  cd ../
+  418  ls
+  419  cd ../
+  420  ls
+  421  cat hint6
+  422  cd mystery/interviews
+  423  cat interview-3871242
+  424  cat interview-5782759
+  425  cd ../
+  426  ls
+  427  cd streets
+  428  ls
+  429  cat Mattapan_Street
+  430  head -n 173 streets/Mattapan_street|trail -n 1
+  431  head -n 173 streets/Mattapan_Street|trail -n 1
+  432  head -n 173 streets/Mattapan_Street|tail -n 1
+  433  head -n 173 Mattapan_Street|tail -n 1
+  434  cd ../
+  435  ls
+  436  cd interviews
+  437  cat interview-9437737
+  438  cd ../
+  439  ls
+  440  cd streets
+  441  head -n 176 Haley street|tail -n 1
+  442  cat
+  443  cd Documents
+  444  ls
+  445  cd Enquête
+  446  ls
+  447  cd clmystery-master
+  448  ls
+  449  cd mystery
+  450  ls
+  451  cd streets
+  452  cat streets
+  453  ls
+  454  head -n 176 Haley_Street | tail -n 1
+  455  cd ../
+  456  cd interviews
+  457  cat interviews-871877
+  458  ls
+  459  cat interview-871877
+  460  cd ../
+  461  cd streets
+  462  ls
+  463  cd ../
+  464  cd interviews
+  465  cd ../
+  466  cd streets
+  467  head -n 179 Buckingham_Place | tail -n 1
+  468  cd ../
+  469  cd interviews
+  470  cat interview-699607
+  471  cd Documents/Enquêtes/
+  472  cd Documents
+  473  cd Enquêtes
+  474  ls
+  475  cd Enquête
+  476  ls
+  477  cd clmystery-master
+  478  ls
+  479  cat LICENCE.md
+  480  ls  LICENCE.md
+  481  ls LICENCE.md
+  482  ls LICENSE.md
+  483  cat LICENSE.md
+  484  ls
+  485  cd mystery
+  486  ls
+  487  cat vehicles
+  488  grep -A 5 "L337" vehicles
+  489  ls
+  490  cd memberships
+  491  ls
+  492  grep -i "Jeremy Bowers" AAA
+  493  grep -i "Jeremy Bowers" AAA|Museum_of_Bash_History
+  494  grep -i "Jeremy Bowers" AAA|grep -i "Jeremy Bowers" Museum_of_Bash_History
+  495* 
+  496  grep -i "Jeremy Bowers" Delta_SkyMiles
+  497  grep -i "Jeremy Bowers" Terminal_City_Library
+  498  grep -i "Jacqui Maher" AAA
+  499  grep -i "Jacqui Maher" Museum_of_Bash_History
+  500  grep -i "Jacqui Maher" Delta_SkyMiles
+  501  grep -i "Jacqui Maher" Terminal_City_Library
+  502  grep -i "Joe Germuska" Terminal_City_Library
+  503  grep -i "Joe Germuska" Delta_SkyMiles
+  504  grep -i "Joe Germuska" Museum_of_Bash_History
+  505  grep -i "Joe Germuska" AAA
+  506  ls
+  507  cd../
+  508  cd ../
+  509  ls
+  510  cd ../
+  511  ls
+  512  cd mystery
+  513  ls
+  514  grep -i "jeremy bowers" people
+  515  grep -i "jacqui maher" people
+  516  ls
+  517  cd interviews
+  518  ls
+  519  cd ../
+  520  ls
+  521  cd steets
+  522  cd strteets
+  523  cd streets
+  524  ls
+  525  cd ../
+  526  ls
+  527  cd ../
+  528  ls
+  529  ls hint6
+  530  cat hint6
+  531  cat hint5
+  532  cd mystery
+  533  cd streets
+  534  ls
+  535  head -n 284 Dunstable_Road | tail -n 1
+  536  cd ../
+  537  cd interviews
+  538  ls
+  539  cat interviews-9620713
+  540  cat interview-9620713
+  541  cd ../
+  542  ls
+  543  echo "Le nom du coupable est Jeremy Bowers" > suspect
+  544  cat suspect
+  545  history > mon_history.log
